@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|c:\\users\\alex\\source\\repos\\weather\u002B\u002B\\weather\u002B\u002B\\services\\reversegeocodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|solutionrelative:weather\u002B\u002B\\services\\reversegeocodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|c:\\users\\alex\\source\\repos\\weather\u002B\u002B\\weather\u002B\u002B\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|solutionrelative:weather\u002B\u002B\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|c:\\users\\alex\\source\\repos\\weather\u002B\u002B\\weather\u002B\u002B\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|solutionrelative:weather\u002B\u002B\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|c:\\users\\alex\\source\\repos\\weather\u002B\u002B\\weather\u002B\u002B\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|solutionrelative:weather\u002B\u002B\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|c:\\users\\alex\\source\\repos\\weather\u002B\u002B\\weather\u002B\u002B\\models\\locationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|solutionrelative:weather\u002B\u002B\\models\\locationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|c:\\users\\alex\\source\\repos\\weather\u002B\u002B\\weather\u002B\u002B\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|solutionrelative:weather\u002B\u002B\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|c:\\users\\alex\\source\\repos\\weather\u002B\u002B\\weather\u002B\u002B\\views\\currentwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|solutionrelative:weather\u002B\u002B\\views\\currentwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|c:\\users\\alex\\source\\repos\\weather\u002B\u002B\\weather\u002B\u002B\\views\\next24hrwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF8F166C-12F0-484C-80D9-D6EDA530F065}|Weather\u002B\u002B\\Weather\u002B\u002B.csproj|solutionrelative:weather\u002B\u002B\\views\\next24hrwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReverseGeocodeService.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Services\\ReverseGeocodeService.cs",
+              "RelativeDocumentMoniker": "Weather\u002B\u002B\\Services\\ReverseGeocodeService.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Services\\ReverseGeocodeService.cs",
+              "RelativeToolTip": "Weather\u002B\u002B\\Services\\ReverseGeocodeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T00:28:20.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocationData.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Models\\LocationData.cs",
+              "RelativeDocumentMoniker": "Weather\u002B\u002B\\Models\\LocationData.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Models\\LocationData.cs",
+              "RelativeToolTip": "Weather\u002B\u002B\\Models\\LocationData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T00:25:13.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Next24HrWidget.xaml",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Views\\Next24HrWidget.xaml",
+              "RelativeDocumentMoniker": "Weather\u002B\u002B\\Views\\Next24HrWidget.xaml",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Views\\Next24HrWidget.xaml",
+              "RelativeToolTip": "Weather\u002B\u002B\\Views\\Next24HrWidget.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-01T23:54:50.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CurrentWidget.xaml",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Views\\CurrentWidget.xaml",
+              "RelativeDocumentMoniker": "Weather\u002B\u002B\\Views\\CurrentWidget.xaml",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Views\\CurrentWidget.xaml",
+              "RelativeToolTip": "Weather\u002B\u002B\\Views\\CurrentWidget.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-01T20:23:27.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Weather\u002B\u002B\\Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "Weather\u002B\u002B\\Pages\\HomePage.xaml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-01T20:23:22.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherData.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Models\\WeatherData.cs",
+              "RelativeDocumentMoniker": "Weather\u002B\u002B\\Models\\WeatherData.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Models\\WeatherData.cs",
+              "RelativeToolTip": "Weather\u002B\u002B\\Models\\WeatherData.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAIwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T20:20:12.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Weather\u002B\u002B\\Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Weather\u002B\u002B\\Pages\\HomePage.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T07:10:16.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Weather\u002B\u002B\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Weather\u002B\u002B\\Weather\u002B\u002B\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "Weather\u002B\u002B\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T06:48:35.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
