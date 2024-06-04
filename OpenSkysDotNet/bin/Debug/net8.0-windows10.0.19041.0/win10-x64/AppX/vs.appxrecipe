@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-03T08:59:07.211</Modified>
+      <Modified>2024-06-04T09:32:41.855</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-03T08:59:07.105</Modified>
+      <Modified>2024-06-04T09:32:41.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OpenSkysDotNet.runtimeconfig.json">
       <PackagePath>OpenSkysDotNet.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OpenSkysDotNet.dll">
       <PackagePath>OpenSkysDotNet.dll</PackagePath>
-      <Modified>2024-06-03T08:59:06.878</Modified>
+      <Modified>2024-06-04T09:32:40.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>OpenSkysDotNet.exe</PackagePath>
-      <Modified>2024-06-03T08:59:06.882</Modified>
+      <Modified>2024-06-04T09:32:40.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -1256,7 +1256,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OpenSkysDotNet.deps.json">
       <PackagePath>OpenSkysDotNet.deps.json</PackagePath>
-      <Modified>2024-06-03T08:59:07.062</Modified>
+      <Modified>2024-06-04T09:32:41.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

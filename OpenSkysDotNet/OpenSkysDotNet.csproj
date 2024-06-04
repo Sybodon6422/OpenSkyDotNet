@@ -40,10 +40,34 @@
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
 	  <AndroidKeyStore>False</AndroidKeyStore>
+	  <ApplicationTitle>OpenSkysDotNet</ApplicationTitle>
+	  <ApplicationId>com.BarkerSybodon.OpenSkysDotNet</ApplicationId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
 	  <AndroidKeyStore>False</AndroidKeyStore>
+	  <ApplicationTitle>OpenSkysDotNet</ApplicationTitle>
+	  <ApplicationId>com.BarkerSybodon.OpenSkysDotNet</ApplicationId>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-maccatalyst|AnyCPU'">
+	  <ApplicationTitle>OpenSkysDotNet</ApplicationTitle>
+	  <ApplicationId>com.BarkerSybodon.OpenSkysDotNet</ApplicationId>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows10.0.19041.0|AnyCPU'">
+	  <ApplicationTitle>OpenSkysDotNet</ApplicationTitle>
+	  <ApplicationId>com.BarkerSybodon.OpenSkysDotNet</ApplicationId>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-maccatalyst|AnyCPU'">
+	  <ApplicationTitle>OpenSkysDotNet</ApplicationTitle>
+	  <ApplicationId>com.BarkerSybodon.OpenSkysDotNet</ApplicationId>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows10.0.19041.0|AnyCPU'">
+	  <ApplicationTitle>OpenSkysDotNet</ApplicationTitle>
+	  <ApplicationId>com.BarkerSybodon.OpenSkysDotNet</ApplicationId>
 	</PropertyGroup>
 
 	<ItemGroup>

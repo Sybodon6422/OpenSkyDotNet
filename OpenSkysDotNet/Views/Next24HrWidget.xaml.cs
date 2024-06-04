@@ -8,13 +8,13 @@ public partial class Next24HrWidget
     {
         InitializeComponent();
 
-        BindingContext = new HomeViewModel();
-        LoadWeatherData();
+/*        BindingContext = new HomeViewModel();
+        LoadWeatherData();*/
     }
 
-    private async void LoadWeatherData()
+/*    private async void LoadWeatherData()
     {
         var homeViewModel = (HomeViewModel)BindingContext;
         await homeViewModel.LoadWeatherDataAsync();
-    }
+    }*/
 }
