@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "Weather++.dll" comes first in this list. */
-		"Weather++.dll",
+		/* We need to ensure that "OpenSkysDotNet.dll" comes first in this list. */
+		"OpenSkysDotNet.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",

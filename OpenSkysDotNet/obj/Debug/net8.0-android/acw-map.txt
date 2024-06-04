@@ -1,9 +1,9 @@
-Weather__.MainActivity, Weather++;crc6415691a3bc64762da.MainActivity
-Weather__.MainActivity;crc6415691a3bc64762da.MainActivity
-weather__.MainActivity;crc6415691a3bc64762da.MainActivity
-Weather__.MainApplication, Weather++;crc6415691a3bc64762da.MainApplication
-Weather__.MainApplication;crc6415691a3bc64762da.MainApplication
-weather__.MainApplication;crc6415691a3bc64762da.MainApplication
+OpenSkysDotNet.MainActivity, OpenSkysDotNet;crc64e6b5be0054d8ce15.MainActivity
+OpenSkysDotNet.MainActivity;crc64e6b5be0054d8ce15.MainActivity
+openskysdotnet.MainActivity;crc64e6b5be0054d8ce15.MainActivity
+OpenSkysDotNet.MainApplication, OpenSkysDotNet;crc64e6b5be0054d8ce15.MainApplication
+OpenSkysDotNet.MainApplication;crc64e6b5be0054d8ce15.MainApplication
+openskysdotnet.MainApplication;crc64e6b5be0054d8ce15.MainApplication
 GoogleGson.IExclusionStrategy, GoogleGson;com.google.gson.ExclusionStrategy
 GoogleGson.IExclusionStrategy;com.google.gson.ExclusionStrategy
 com.google.gson.ExclusionStrategy;com.google.gson.ExclusionStrategy

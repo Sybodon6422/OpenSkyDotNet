@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Weather__
+namespace OpenSkysDotNet
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

@@ -1,4 +1,4 @@
-namespace Weather__.Resources.Styles;
+namespace OpenSkysDotNet.Resources.Styles;
 
 public partial class DefaultTheme : ResourceDictionary
 {

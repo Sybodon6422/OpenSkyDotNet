@@ -2,7 +2,7 @@
 using Android.Content.PM;
 using Android.OS;
 
-namespace Weather__;
+namespace OpenSkysDotNet;
 
 [IntentFilter(
     new[] { Platform.Intent.ActionAppAction },

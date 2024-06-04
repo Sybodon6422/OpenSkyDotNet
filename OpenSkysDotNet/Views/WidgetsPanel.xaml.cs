@@ -1,4 +1,4 @@
-namespace Weather__.Views;
+namespace OpenSkysDotNet.Views;
 
 public partial class WidgetsPanel
 {

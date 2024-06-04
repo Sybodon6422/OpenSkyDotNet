@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Weather__.Pages;
+using OpenSkysDotNet.Pages;
 
-namespace Weather__
+namespace OpenSkysDotNet
 {
     public partial class App : Application
     {

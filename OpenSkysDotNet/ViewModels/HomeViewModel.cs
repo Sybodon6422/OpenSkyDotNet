@@ -3,9 +3,11 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using Weather__.Models;
+using OpenSkysDotNet.Models;
+using System.Windows.Input;
+using OpenSkysDotNet.Resources;
 
-namespace Weather__.ViewModels;
+namespace OpenSkysDotNet.ViewModels;
 public class HomeViewModel : INotifyPropertyChanged
 {
     #region Properties
@@ -13,11 +15,8 @@ public class HomeViewModel : INotifyPropertyChanged
     private string temperature;
     private double windSpeed;
 
-    private double latitude;
-    private double longitude;
-
-    public List<Forecast> Week { get; set; }
-    public List<Forecast> Hours { get; set; }
+    private List<Forecast> week;
+    private List<Forecast> hours;
 
 
     private LocationData locationData;
@@ -51,25 +50,6 @@ public class HomeViewModel : INotifyPropertyChanged
         }
     }
 
-    public double Latitude
-    {
-        get => latitude;
-        set
-        {
-            latitude = value;
-            OnPropertyChanged();
-        }
-    }
-
-    public double Longitude
-    {
-        get => longitude;
-        set
-        {
-            longitude = value;
-            OnPropertyChanged();
-        }
-    }
     public LocationData LocationData
     {
         get => locationData;
@@ -80,7 +60,28 @@ public class HomeViewModel : INotifyPropertyChanged
         }
     }
 
+    public List<Forecast> Week
+    {
+        get => week;
+        set
+        {
+            week = value;
+            OnPropertyChanged();
+        }
+    }
+
+    public List<Forecast> Hours
+    {
+        get => hours;
+        set
+        {
+            hours = value;
+            OnPropertyChanged();
+        }
+    }
+
     public event PropertyChangedEventHandler PropertyChanged;
+
 
     protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
     {
@@ -91,12 +92,12 @@ public class HomeViewModel : INotifyPropertyChanged
 
     public HomeViewModel()
     {
-        InitData();
+        //InitData();
     }
 
     private void InitData()
     {
-        Week = new List<Forecast>
+        week = new List<Forecast>
             {
                 new Forecast
                 {
@@ -184,7 +185,7 @@ public class HomeViewModel : INotifyPropertyChanged
                 }
             };
 
-        Hours = new List<Forecast>
+        hours = new List<Forecast>
             {
                 new Forecast
                 {
@@ -331,61 +332,41 @@ public class HomeViewModel : INotifyPropertyChanged
     }
 
     public async Task LoadWeatherDataAsync()
-    {
-        await GetLocationAsync();
+    {       
+        WeatherData weatherData = await GeoMetWeatherService.Instance.GetWeatherDataAsync();
+        LocationData locationData = await ReverseGeocodeService.Instance.GetLocationDataasync();
 
-        GeoMetWeatherService weatherService = new GeoMetWeatherService();
-        ReverseGeocodeService ReverseGeocodeService = new ReverseGeocodeService();
-        string endpoint = "https://api.open-meteo.com/v1/forecast?latitude=" + Latitude + "&longitude=" + Longitude + "&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m";
-        WeatherData weatherData = await weatherService.GetWeatherDataAsync(endpoint);
-        LocationData locationData = await ReverseGeocodeService.GetCityNameAsync(Latitude, Longitude);
-        UpdateWeatherForecast(weatherData);
+        await UpdateWeatherForecast(weatherData);
+
         WeatherDescription = $"{locationData.Address.City + ", " + locationData.Address.State}";
         Temperature = weatherData.Current.Temperature2m.ToString() + weatherData.CurrentUnits.Temperature2m.ToString();
         WindSpeed = weatherData.Current.WindSpeed10m;
     }
      
-    public async Task GetLocationAsync()
+
+    public async Task<bool> UpdateWeatherForecast(WeatherData weatherData)
     {
-        try
+        hours = new List<Forecast>();
+        for (int i = 0; i < 24; i++)
         {
-            var request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
-            var location = await Geolocation.GetLocationAsync(request);
-
-            if (location != null)
-
+            Forecast newForecast = new Forecast
             {
-                Latitude = location.Latitude;
-                Longitude = location.Longitude;
-                Debug.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
-            }
+                DateTime = DateTime.Now.AddHours(i + 1),
+                Day = new Day { Phrase = PickImageFromData.GetWeatherDescription(weatherData.Hourly.WeatherCode[i]) },
+                Temperature = new Temperature { Minimum = new Minimum { Unit = "C", Value = (int)weatherData.Hourly.Temperature2m[i] }, Maximum = new Maximum { Unit = "C", Value = (int)weatherData.Hourly.Temperature2m[i] } },
+            };
+            hours.Add(newForecast);
         }
-        catch (FeatureNotSupportedException fnsEx)
+/*        if (hours == null) { return; }
+        for (int i = 0; i < hours.Count; i++)
         {
-            // Handle not supported on device exception
-        }
-        catch (FeatureNotEnabledException fneEx)
-        {
-            // Handle not enabled on device exception
-        }
-        catch (PermissionException pEx)
-        {
-            // Handle permission exception
-        }
-        catch (Exception ex)
-        {
-            // Unable to get location
-        }
-    }
-
-    public void UpdateWeatherForecast(WeatherData weatherData)
-    {
-        if(Hours == null) { return; }
-        for (int i = 0; i < Hours.Count; i++)
-        {
-            Hours[i].Temperature.Minimum.Value = (int)weatherData.Hourly.Temperature2m[i];
+            hours[i].Temperature.Minimum.Value = (int)weatherData.Hourly.Temperature2m[i];
             Debug.Print("Temperature: " + weatherData.Hourly.Temperature2m[i]);
-            Hours[i].Temperature.Maximum.Value = (int)weatherData.Hourly.Temperature2m[i];
-        }
+            hours[i].Temperature.Maximum.Value = (int)weatherData.Hourly.Temperature2m[i];
+        }*/
+        OnPropertyChanged("Hours");
+        OnPropertyChanged("Temperature.Minimum.Value");
+        OnPropertyChanged("Temperature");
+        return true;
     }
 }

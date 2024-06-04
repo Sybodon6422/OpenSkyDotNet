@@ -1,25 +1,107 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Weather__.Models;
+using Microsoft.Maui.Devices.Sensors;
+using OpenSkysDotNet.Models;
 
-namespace Weather__.Services
+namespace OpenSkysDotNet.Services
 {
     public class ReverseGeocodeService
     {
-        private static readonly HttpClient httpClient;
-        static ReverseGeocodeService()
+        private static ReverseGeocodeService _instance;
+        private static readonly object _lock = new object();
+        private LocationData _cachedLocationData;
+
+
+        private readonly HttpClient httpClient;
+
+        private double Latitude { get; set; }
+        private double Longitude { get; set; }
+
+        public double GetLatitude()
+        {
+            return Latitude;
+        }
+
+        public double GetLongitude()
+        {
+            return Longitude;
+        }
+
+        public static ReverseGeocodeService Instance
+        {
+            get
+            {
+                lock (_lock)
+                {
+                    if (_instance == null)
+                    {
+                        _instance = new ReverseGeocodeService();
+                    }
+                    return _instance;
+                }
+            }
+        }
+
+        private ReverseGeocodeService()
         {
 
             httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("OpenSkysDotNet/0.1 (BarkerSyobodon@outlook.com)");
-
         }
 
-        public async Task<LocationData> GetCityNameAsync(double latitude, double longitude)
+        public async Task GetLocationAsync()
         {
-            string url = $"https://nominatim.openstreetmap.org/reverse?format=json&lat={latitude}&lon={longitude}&addressdetails=1";
+            if(Latitude != 0 && Longitude != 0)
+            {
+                return;
+            }
+
+            try
+            {
+                var request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
+                var location = await Geolocation.GetLocationAsync(request);
+
+                if (location != null)
+
+                {
+                    Latitude = location.Latitude;
+                    Longitude = location.Longitude;
+                    Debug.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+                }
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Handle not supported on device exception
+            }
+            catch (FeatureNotEnabledException fneEx)
+            {
+                // Handle not enabled on device exception
+            }
+            catch (PermissionException pEx)
+            {
+                // Handle permission exception
+            }
+            catch (Exception ex)
+            {
+                // Unable to get location
+            }
+        }
+
+        public async Task<LocationData> GetLocationDataasync()
+        {
+            if(Latitude == 0 || Longitude == 0)
+            {
+                await GetLocationAsync();
+            }
+            if(_cachedLocationData != null)
+            {
+                return _cachedLocationData;
+            }
+
+            string url = $"https://nominatim.openstreetmap.org/reverse?format=json&lat={Latitude}&lon={Longitude}&addressdetails=1";
 
             try
             {
@@ -34,7 +116,8 @@ namespace Weather__.Services
                 };
 
                 LocationData locationData = JsonSerializer.Deserialize<LocationData>(responseData, options);
-                return locationData;
+                _cachedLocationData = locationData;
+                return _cachedLocationData;
             }
             catch (HttpRequestException ex)
             {

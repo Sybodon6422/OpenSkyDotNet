@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.weather</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\Alex\source\repos\Weather++\Weather++\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>407A698E246833CE7533F8F3BE5413D3E3670120F33757685FA1EB939B595EEA</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E9786FBBDE8196EC53C70D973227C2D078561AFCB73E7FE814BB7E99C85028D6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.weather_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.weather_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.weather</RegisteredPackageID>
@@ -27,1236 +27,1236 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Alex\source\repos\Weather++\Weather++\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-02T03:24:57.981</Modified>
+      <Modified>2024-06-03T08:59:07.211</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-02T03:02:16.598</Modified>
+      <Modified>2024-06-03T08:59:07.105</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Weather++.runtimeconfig.json">
-      <PackagePath>Weather++.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-02T03:02:16.439</Modified>
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OpenSkysDotNet.runtimeconfig.json">
+      <PackagePath>OpenSkysDotNet.runtimeconfig.json</PackagePath>
+      <Modified>2024-06-03T08:57:41.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Weather++.dll">
-      <PackagePath>Weather++.dll</PackagePath>
-      <Modified>2024-06-02T03:24:57.696</Modified>
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OpenSkysDotNet.dll">
+      <PackagePath>OpenSkysDotNet.dll</PackagePath>
+      <Modified>2024-06-03T08:59:06.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
-      <PackagePath>Weather++.exe</PackagePath>
-      <Modified>2024-06-02T03:24:57.700</Modified>
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+      <PackagePath>OpenSkysDotNet.exe</PackagePath>
+      <Modified>2024-06-03T08:59:06.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:28.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:28.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:28.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:28.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:28.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\fa-solid-900.ttf">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\fa-solid-900.ttf">
       <PackagePath>fa-solid-900.ttf</PackagePath>
       <Modified>2024-06-01T00:54:11.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-05-31T20:50:47.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-05-31T20:50:47.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-100.png">
       <PackagePath>add_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-125.png">
       <PackagePath>add_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-150.png">
       <PackagePath>add_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-200.png">
       <PackagePath>add_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_icon.scale-400.png">
       <PackagePath>add_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_location.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_location.scale-100.png">
       <PackagePath>add_location.scale-100.png</PackagePath>
       <Modified>2024-06-01T00:54:11.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-06-01T02:25:29.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.624</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-06-01T02:25:29.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2024-06-01T02:25:29.321</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2024-06-01T02:25:29.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2024-06-01T02:25:29.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2024-06-01T02:25:29.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-06-01T02:25:29.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2024-06-01T02:25:29.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2024-06-01T02:25:29.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2024-06-01T02:25:29.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2024-06-01T02:25:29.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2024-06-01T02:25:29.272</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2024-06-01T02:25:29.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2024-06-01T02:25:29.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2024-06-01T02:25:29.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2024-06-01T02:25:29.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-100.png">
       <PackagePath>checkmark_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-125.png">
       <PackagePath>checkmark_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-150.png">
       <PackagePath>checkmark_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-200.png">
       <PackagePath>checkmark_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\checkmark_icon.scale-400.png">
       <PackagePath>checkmark_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-100.png">
       <PackagePath>compass_background.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-125.png">
       <PackagePath>compass_background.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-150.png">
       <PackagePath>compass_background.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-200.png">
       <PackagePath>compass_background.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_background.scale-400.png">
       <PackagePath>compass_background.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-100.png">
       <PackagePath>compass_needle.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-125.png">
       <PackagePath>compass_needle.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-150.png">
       <PackagePath>compass_needle.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-200.png">
       <PackagePath>compass_needle.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\compass_needle.scale-400.png">
       <PackagePath>compass_needle.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\current_info.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\current_info.scale-100.png">
       <PackagePath>current_info.scale-100.png</PackagePath>
       <Modified>2024-06-01T00:54:11.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-100.png">
       <PackagePath>fluent_weather_cloudy_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-125.png">
       <PackagePath>fluent_weather_cloudy_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-150.png">
       <PackagePath>fluent_weather_cloudy_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-200.png">
       <PackagePath>fluent_weather_cloudy_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_cloudy_20_filled.scale-400.png">
       <PackagePath>fluent_weather_cloudy_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-100.png">
       <PackagePath>fluent_weather_drizzle_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-125.png">
       <PackagePath>fluent_weather_drizzle_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-150.png">
       <PackagePath>fluent_weather_drizzle_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-200.png">
       <PackagePath>fluent_weather_drizzle_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_drizzle_20_filled.scale-400.png">
       <PackagePath>fluent_weather_drizzle_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.206</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-100.png">
       <PackagePath>fluent_weather_fog_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-125.png">
       <PackagePath>fluent_weather_fog_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-150.png">
       <PackagePath>fluent_weather_fog_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-200.png">
       <PackagePath>fluent_weather_fog_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_fog_20_filled.scale-400.png">
       <PackagePath>fluent_weather_fog_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-100.png">
       <PackagePath>fluent_weather_hail_day_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-125.png">
       <PackagePath>fluent_weather_hail_day_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-150.png">
       <PackagePath>fluent_weather_hail_day_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-200.png">
       <PackagePath>fluent_weather_hail_day_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_day_20_filled.scale-400.png">
       <PackagePath>fluent_weather_hail_day_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-100.png">
       <PackagePath>fluent_weather_hail_night_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-125.png">
       <PackagePath>fluent_weather_hail_night_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-150.png">
       <PackagePath>fluent_weather_hail_night_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-200.png">
       <PackagePath>fluent_weather_hail_night_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_hail_night_20_filled.scale-400.png">
       <PackagePath>fluent_weather_hail_night_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.206</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-100.png">
       <PackagePath>fluent_weather_haze_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-125.png">
       <PackagePath>fluent_weather_haze_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-150.png">
       <PackagePath>fluent_weather_haze_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-200.png">
       <PackagePath>fluent_weather_haze_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_haze_20_filled.scale-400.png">
       <PackagePath>fluent_weather_haze_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-100.png">
       <PackagePath>fluent_weather_moon_16_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-125.png">
       <PackagePath>fluent_weather_moon_16_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-150.png">
       <PackagePath>fluent_weather_moon_16_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-200.png">
       <PackagePath>fluent_weather_moon_16_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_16_filled.scale-400.png">
       <PackagePath>fluent_weather_moon_16_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-100.png">
       <PackagePath>fluent_weather_moon_off_16_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-125.png">
       <PackagePath>fluent_weather_moon_off_16_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-150.png">
       <PackagePath>fluent_weather_moon_off_16_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-200.png">
       <PackagePath>fluent_weather_moon_off_16_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_moon_off_16_filled.scale-400.png">
       <PackagePath>fluent_weather_moon_off_16_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-100.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-125.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-150.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-200.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-400.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-100.png">
       <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.206</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-125.png">
       <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-150.png">
       <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-200.png">
       <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-400.png">
       <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-100.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-125.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-150.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-200.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-400.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-100.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-125.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-150.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-200.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-400.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-100.png">
       <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-125.png">
       <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-150.png">
       <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-200.png">
       <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-400.png">
       <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-100.png">
       <PackagePath>fluent_weather_rain_snow_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-125.png">
       <PackagePath>fluent_weather_rain_snow_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-150.png">
       <PackagePath>fluent_weather_rain_snow_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-200.png">
       <PackagePath>fluent_weather_rain_snow_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_snow_20_filled.scale-400.png">
       <PackagePath>fluent_weather_rain_snow_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-100.png">
       <PackagePath>fluent_weather_snowflake_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-125.png">
       <PackagePath>fluent_weather_snowflake_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-150.png">
       <PackagePath>fluent_weather_snowflake_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-200.png">
       <PackagePath>fluent_weather_snowflake_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snowflake_20_filled.scale-400.png">
       <PackagePath>fluent_weather_snowflake_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-100.png">
       <PackagePath>fluent_weather_snow_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-125.png">
       <PackagePath>fluent_weather_snow_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-150.png">
       <PackagePath>fluent_weather_snow_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-200.png">
       <PackagePath>fluent_weather_snow_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_20_filled.scale-400.png">
       <PackagePath>fluent_weather_snow_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-100.png">
       <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-125.png">
       <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-150.png">
       <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-200.png">
       <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_day_20_filled.scale-400.png">
       <PackagePath>fluent_weather_snow_shower_day_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-100.png">
       <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-125.png">
       <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-150.png">
       <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-200.png">
       <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_snow_shower_night_20_filled.scale-400.png">
       <PackagePath>fluent_weather_snow_shower_night_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-100.png">
       <PackagePath>fluent_weather_squalls_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-125.png">
       <PackagePath>fluent_weather_squalls_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-150.png">
       <PackagePath>fluent_weather_squalls_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-200.png">
       <PackagePath>fluent_weather_squalls_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_squalls_20_filled.scale-400.png">
       <PackagePath>fluent_weather_squalls_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-100.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-125.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.226</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-150.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-200.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-400.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-100.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-125.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-150.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-200.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.222</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-400.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-100.png">
       <PackagePath>fluent_weather_sunny_low_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-125.png">
       <PackagePath>fluent_weather_sunny_low_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-150.png">
       <PackagePath>fluent_weather_sunny_low_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-200.png">
       <PackagePath>fluent_weather_sunny_low_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-400.png">
       <PackagePath>fluent_weather_sunny_low_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-100.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-125.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-150.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-200.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-400.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.226</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-100.png">
       <PackagePath>humidity_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-125.png">
       <PackagePath>humidity_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-150.png">
       <PackagePath>humidity_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.222</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-200.png">
       <PackagePath>humidity_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-400.png">
       <PackagePath>humidity_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-100.png">
       <PackagePath>rain_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-125.png">
       <PackagePath>rain_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-150.png">
       <PackagePath>rain_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-200.png">
       <PackagePath>rain_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rain_icon.scale-400.png">
       <PackagePath>rain_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png">
       <PackagePath>search_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-125.png">
       <PackagePath>search_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-150.png">
       <PackagePath>search_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-200.png">
       <PackagePath>search_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-400.png">
       <PackagePath>search_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-100.png">
       <PackagePath>sm_solid_umbrella.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-125.png">
       <PackagePath>sm_solid_umbrella.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-150.png">
       <PackagePath>sm_solid_umbrella.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-200.png">
       <PackagePath>sm_solid_umbrella.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sm_solid_umbrella.scale-400.png">
       <PackagePath>sm_solid_umbrella.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-100.png">
       <PackagePath>solid_humidity.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-125.png">
       <PackagePath>solid_humidity.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-150.png">
       <PackagePath>solid_humidity.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-200.png">
       <PackagePath>solid_humidity.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_humidity.scale-400.png">
       <PackagePath>solid_humidity.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-100.png">
       <PackagePath>solid_umbrella.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-125.png">
       <PackagePath>solid_umbrella.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-150.png">
       <PackagePath>solid_umbrella.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-200.png">
       <PackagePath>solid_umbrella.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_umbrella.scale-400.png">
       <PackagePath>solid_umbrella.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-100.png">
       <PackagePath>solid_wind.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-125.png">
       <PackagePath>solid_wind.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-150.png">
       <PackagePath>solid_wind.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-200.png">
       <PackagePath>solid_wind.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solid_wind.scale-400.png">
       <PackagePath>solid_wind.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-100.png">
       <PackagePath>sunrise_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-125.png">
       <PackagePath>sunrise_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.222</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-150.png">
       <PackagePath>sunrise_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-200.png">
       <PackagePath>sunrise_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunrise_icon.scale-400.png">
       <PackagePath>sunrise_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-100.png">
       <PackagePath>sunset_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-125.png">
       <PackagePath>sunset_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-150.png">
       <PackagePath>sunset_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-200.png">
       <PackagePath>sunset_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sunset_icon.scale-400.png">
       <PackagePath>sunset_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-100.png">
       <PackagePath>tab_favorites.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-125.png">
       <PackagePath>tab_favorites.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-150.png">
       <PackagePath>tab_favorites.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-200.png">
       <PackagePath>tab_favorites.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites.scale-400.png">
       <PackagePath>tab_favorites.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-100.png">
       <PackagePath>tab_favorites_on.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-125.png">
       <PackagePath>tab_favorites_on.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-150.png">
       <PackagePath>tab_favorites_on.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-200.png">
       <PackagePath>tab_favorites_on.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_favorites_on.scale-400.png">
       <PackagePath>tab_favorites_on.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-100.png">
       <PackagePath>tab_home.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-125.png">
       <PackagePath>tab_home.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.238</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-150.png">
       <PackagePath>tab_home.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-200.png">
       <PackagePath>tab_home.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home.scale-400.png">
       <PackagePath>tab_home.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-100.png">
       <PackagePath>tab_home_on.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-125.png">
       <PackagePath>tab_home_on.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-150.png">
       <PackagePath>tab_home_on.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-200.png">
       <PackagePath>tab_home_on.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_home_on.scale-400.png">
       <PackagePath>tab_home_on.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-100.png">
       <PackagePath>tab_map.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-125.png">
       <PackagePath>tab_map.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.238</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-150.png">
       <PackagePath>tab_map.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-200.png">
       <PackagePath>tab_map.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map.scale-400.png">
       <PackagePath>tab_map.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.244</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-100.png">
       <PackagePath>tab_map_on.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-125.png">
       <PackagePath>tab_map_on.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-150.png">
       <PackagePath>tab_map_on.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-200.png">
       <PackagePath>tab_map_on.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_map_on.scale-400.png">
       <PackagePath>tab_map_on.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-100.png">
       <PackagePath>tab_settings.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-125.png">
       <PackagePath>tab_settings.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-150.png">
       <PackagePath>tab_settings.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-200.png">
       <PackagePath>tab_settings.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings.scale-400.png">
       <PackagePath>tab_settings.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.246</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-100.png">
       <PackagePath>tab_settings_on.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-125.png">
       <PackagePath>tab_settings_on.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-150.png">
       <PackagePath>tab_settings_on.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-200.png">
       <PackagePath>tab_settings_on.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tab_settings_on.scale-400.png">
       <PackagePath>tab_settings_on.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-100.png">
       <PackagePath>umbrella_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-125.png">
       <PackagePath>umbrella_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-150.png">
       <PackagePath>umbrella_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-200.png">
       <PackagePath>umbrella_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\umbrella_icon.scale-400.png">
       <PackagePath>umbrella_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-100.png">
       <PackagePath>weather_cloudy.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-125.png">
       <PackagePath>weather_cloudy.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-150.png">
       <PackagePath>weather_cloudy.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-200.png">
       <PackagePath>weather_cloudy.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_cloudy.scale-400.png">
       <PackagePath>weather_cloudy.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-100.png">
       <PackagePath>weather_partly_cloudy_day.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-125.png">
       <PackagePath>weather_partly_cloudy_day.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-150.png">
       <PackagePath>weather_partly_cloudy_day.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-200.png">
       <PackagePath>weather_partly_cloudy_day.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_day.scale-400.png">
       <PackagePath>weather_partly_cloudy_day.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-100.png">
       <PackagePath>weather_partly_cloudy_night.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-125.png">
       <PackagePath>weather_partly_cloudy_night.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-150.png">
       <PackagePath>weather_partly_cloudy_night.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.244</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-200.png">
       <PackagePath>weather_partly_cloudy_night.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather_partly_cloudy_night.scale-400.png">
       <PackagePath>weather_partly_cloudy_night.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-100.png">
       <PackagePath>wind_icon.scale-100.png</PackagePath>
       <Modified>2024-06-01T02:25:29.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-125.png">
       <PackagePath>wind_icon.scale-125.png</PackagePath>
       <Modified>2024-06-01T02:25:29.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-150.png">
       <PackagePath>wind_icon.scale-150.png</PackagePath>
       <Modified>2024-06-01T02:25:29.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-200.png">
       <PackagePath>wind_icon.scale-200.png</PackagePath>
       <Modified>2024-06-01T02:25:29.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\wind_icon.scale-400.png">
       <PackagePath>wind_icon.scale-400.png</PackagePath>
       <Modified>2024-06-01T02:25:29.270</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\Weather++\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Weather++.deps.json">
-      <PackagePath>Weather++.deps.json</PackagePath>
-      <Modified>2024-06-02T03:02:16.354</Modified>
+    <AppxPackagedFile Include="C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OpenSkysDotNet.deps.json">
+      <PackagePath>OpenSkysDotNet.deps.json</PackagePath>
+      <Modified>2024-06-03T08:59:07.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

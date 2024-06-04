@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace Weather__.Converters;
+namespace OpenSkysDotNet.Converters;
 
 public class ActiveTabConverter : IValueConverter
 {

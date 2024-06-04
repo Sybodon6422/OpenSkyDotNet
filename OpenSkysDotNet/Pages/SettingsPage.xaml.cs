@@ -1,11 +1,11 @@
 using System.Diagnostics;
 using Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;
-using Weather__.Services;
-using Weather__.ViewModels;
+using OpenSkysDotNet.Services;
+using OpenSkysDotNet.ViewModels;
 using Application = Microsoft.Maui.Controls.Application;
 using WindowsConfiguration = Microsoft.Maui.Controls.PlatformConfiguration.Windows;
 
-namespace Weather__.Pages;
+namespace OpenSkysDotNet.Pages;
 
 public partial class SettingsPage : ContentPage
 {

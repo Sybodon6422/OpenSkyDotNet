@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Weather__.Models
+namespace OpenSkysDotNet.Models
 {
     public class LocationData
     {

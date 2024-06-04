@@ -1,6 +1,6 @@
-using Weather__.ViewModels;
+using OpenSkysDotNet.ViewModels;
 
-namespace Weather__.Views;
+namespace OpenSkysDotNet.Views;
 
 public partial class Next24HrWidget
 {
@@ -9,5 +9,12 @@ public partial class Next24HrWidget
         InitializeComponent();
 
         BindingContext = new HomeViewModel();
+        LoadWeatherData();
+    }
+
+    private async void LoadWeatherData()
+    {
+        var homeViewModel = (HomeViewModel)BindingContext;
+        await homeViewModel.LoadWeatherDataAsync();
     }
 }

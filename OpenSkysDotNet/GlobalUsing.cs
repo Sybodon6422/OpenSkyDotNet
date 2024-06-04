@@ -3,7 +3,7 @@ global using Microsoft.Maui;
 global using Microsoft.Maui.Controls;
 global using Microsoft.Maui.Controls.Hosting;
 global using Microsoft.Maui.Hosting;
-global using Weather__.Services;
+global using OpenSkysDotNet.Services;
 global using System;
 global using System.Collections.Generic;
 global using System.Linq;

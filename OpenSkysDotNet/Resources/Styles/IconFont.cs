@@ -1,5 +1,5 @@
 ﻿
-namespace Weather__.Resources.Styles;
+namespace OpenSkysDotNet.Resources.Styles;
 
 static class IconFont
 {

@@ -1,4 +1,4 @@
-namespace Weather__.Pages;
+namespace OpenSkysDotNet.Pages;
 
 public partial class RadarPage : ContentPage
 {

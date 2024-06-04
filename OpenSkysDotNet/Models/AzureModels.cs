@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Weather__.Models;
+namespace OpenSkysDotNet.Models;
 
 // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
 public class Minimum

@@ -1,4 +1,4 @@
-namespace Weather__.Models;
+namespace OpenSkysDotNet.Models;
 
 public class Metric
 {

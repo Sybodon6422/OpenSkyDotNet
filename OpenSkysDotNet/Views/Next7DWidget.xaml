@@ -1,8 +1,8 @@
-<VerticalStackLayout  xmlns:c="clr-namespace:Weather__.Converters"
+<VerticalStackLayout  xmlns:c="clr-namespace:OpenSkysDotNet.Converters"
               xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-              xmlns:m="clr-namespace:Weather__.Models"
-              x:Class="Weather__.Views.Next7DWidget">
+              xmlns:m="clr-namespace:OpenSkysDotNet.Models"
+              x:Class="OpenSkysDotNet.Views.Next7DWidget">
     <VerticalStackLayout.Resources>
         <c:TempSpanConverter x:Key="TempSpanConverter"/>
         <c:MaxTempOffsetConverter x:Key="MaxTempOffsetConverter"/>

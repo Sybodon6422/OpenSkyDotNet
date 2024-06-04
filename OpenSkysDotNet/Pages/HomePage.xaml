@@ -1,13 +1,13 @@
 <ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:m="clr-namespace:Weather__.Models"
-    xmlns:v="clr-namespace:Weather__.Views"
+    xmlns:m="clr-namespace:OpenSkysDotNet.Models"
+    xmlns:v="clr-namespace:OpenSkysDotNet.Views"
     xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
     ios:Page.UseSafeArea="True"
     Title="{OnIdiom 'Sarnia, Ontario', Desktop=''}"
     Shell.NavBarIsVisible="{OnPlatform True, MacCatalyst=False}"
-    x:Class="Weather__.Pages.HomePage"
+    x:Class="OpenSkysDotNet.Pages.HomePage"
     x:Name="this">
 
     <ContentPage.MenuBarItems>

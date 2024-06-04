@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 using WeatherClient__;
 using Location = WeatherClient__.Location;
 
-namespace Weather__.ViewModels;
+namespace OpenSkysDotNet.ViewModels;
 
 public class FavoritesViewModel : INotifyPropertyChanged
 {

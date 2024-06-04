@@ -1,4 +1,4 @@
-namespace Weather__.Services;
+namespace OpenSkysDotNet.Services;
 
 public interface INotificationService
 {

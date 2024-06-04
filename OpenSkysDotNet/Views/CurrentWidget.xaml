@@ -1,14 +1,14 @@
 <VerticalStackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Spacing="15"
-             x:Class="Weather__.Views.CurrentWidget">
+             x:Class="OpenSkysDotNet.Views.CurrentWidget">
 
     <Image
         WidthRequest="200"
         HeightRequest="200"
         HorizontalOptions="Center"
         Aspect="AspectFit"
-        Source="weather_partly_cloudy_day.png">
+        Source="weather_partly_cloudy_day.svg">
         <!--<Image.Shadow>
             <Shadow Brush="#2B0B98" Offset="20,20" Radius="20" Opacity="0.8"/>
         </Image.Shadow>-->

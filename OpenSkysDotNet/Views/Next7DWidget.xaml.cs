@@ -1,6 +1,6 @@
-using Weather__.ViewModels;
+using OpenSkysDotNet.ViewModels;
 
-namespace Weather__.Views;
+namespace OpenSkysDotNet.Views;
 
 public partial class Next7DWidget
 {

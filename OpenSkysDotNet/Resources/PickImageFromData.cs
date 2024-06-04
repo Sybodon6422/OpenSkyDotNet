@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Weather__.Resources
+namespace OpenSkysDotNet.Resources
 {
     internal static class PickImageFromData
     {
@@ -13,8 +13,8 @@ namespace Weather__.Resources
             return weatherCode switch
             {
                 0 => "fluent_weather_sunny_20_filled.svg",
-                1 => "fluent_weather_partly-cloudy-day-20-filled.svg",
-                2 => "fluent_weather_partly-cloudy-day-20-filled.svg",
+                1 => "weather_partly_cloudy_day.svg",
+                2 => "weather_partly_cloudy_day.svg",
                 3 => "fluent_weather_cloudy-20-filled.svg",
                 45 => "fluent_weather_fog-20-filled.svg",
                 48 => "fluent_weather_fog-20-filled.svg",

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Maui.LifecycleEvents;
-using Weather__.Pages;
-using Weather__.ViewModels;
+using OpenSkysDotNet.Pages;
+using OpenSkysDotNet.ViewModels;
 
-namespace Weather__
+namespace OpenSkysDotNet
 {
     public static class MauiProgram
     {

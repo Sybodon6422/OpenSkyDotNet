@@ -31,6 +31,9 @@ public class WeatherData
     [JsonPropertyName("current")]
     public CurrentWeather Current { get; set; }
 
+    [JsonPropertyName("weather_code")]
+    public int WeatherCode { get; set; }
+
     [JsonPropertyName("hourly_units")]
     public HourlyUnits HourlyUnits { get; set; }
 
@@ -96,4 +99,6 @@ public class HourlyWeather
 
     [JsonPropertyName("wind_speed_10m")]
     public List<double> WindSpeed10m { get; set; }
+    [JsonPropertyName("weather_code")]
+    public List<int> WeatherCode { get; set; }
 }

@@ -1,4 +1,4 @@
-namespace Weather__;
+namespace OpenSkysDotNet;
 
 public static class ServiceProvider
 {

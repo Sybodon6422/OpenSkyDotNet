@@ -1,4 +1,4 @@
-package crc6415691a3bc64762da;
+package crc64e6b5be0054d8ce15;
 
 
 public class MainActivity
@@ -15,7 +15,7 @@ public class MainActivity
 			"n_onNewIntent:(Landroid/content/Intent;)V:GetOnNewIntent_Landroid_content_Intent_Handler\n" +
 			"n_onRequestPermissionsResult:(I[Ljava/lang/String;[I)V:GetOnRequestPermissionsResult_IarrayLjava_lang_String_arrayIHandler\n" +
 			"";
-		mono.android.Runtime.register ("Weather__.MainActivity, Weather++", MainActivity.class, __md_methods);
+		mono.android.Runtime.register ("OpenSkysDotNet.MainActivity, OpenSkysDotNet", MainActivity.class, __md_methods);
 	}
 
 
@@ -23,7 +23,7 @@ public class MainActivity
 	{
 		super ();
 		if (getClass () == MainActivity.class) {
-			mono.android.TypeManager.Activate ("Weather__.MainActivity, Weather++", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("OpenSkysDotNet.MainActivity, OpenSkysDotNet", "", this, new java.lang.Object[] {  });
 		}
 	}
 
@@ -32,7 +32,7 @@ public class MainActivity
 	{
 		super (p0);
 		if (getClass () == MainActivity.class) {
-			mono.android.TypeManager.Activate ("Weather__.MainActivity, Weather++", "System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("OpenSkysDotNet.MainActivity, OpenSkysDotNet", "System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0 });
 		}
 	}
 

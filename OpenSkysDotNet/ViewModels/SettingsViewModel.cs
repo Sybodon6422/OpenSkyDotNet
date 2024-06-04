@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Weather__.ViewModels;
+namespace OpenSkysDotNet.ViewModels;
 
 public class SettingsViewModel : INotifyPropertyChanged
 {

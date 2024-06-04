@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace Weather__
+namespace OpenSkysDotNet
 {
     internal class Program : MauiApplication
     {

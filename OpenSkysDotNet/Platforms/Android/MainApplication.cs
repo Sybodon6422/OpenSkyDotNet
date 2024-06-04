@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Weather__
+namespace OpenSkysDotNet
 {
     [Application]
     public class MainApplication : MauiApplication

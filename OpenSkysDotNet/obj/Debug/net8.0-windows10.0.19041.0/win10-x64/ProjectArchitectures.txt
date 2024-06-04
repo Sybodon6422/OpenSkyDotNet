@@ -1,1 +1,1 @@
-C:\Users\Alex\source\repos\Weather++\Weather++\Weather++.csproj;x64
+C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\OpenSkysDotNet.csproj;x64
