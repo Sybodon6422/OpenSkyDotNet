@@ -8,7 +8,7 @@ public class MinTempOffsetConverter : IValueConverter
     {
         const double min = 40 * 3;
 
-        var minTemp = System.Convert.ToDouble(value) * 3;
+        var minTemp = System.Convert.ToDouble(value) * 6;
         var bottomMargin = minTemp - min;
 
         return new Thickness(0, 0, 0, bottomMargin);

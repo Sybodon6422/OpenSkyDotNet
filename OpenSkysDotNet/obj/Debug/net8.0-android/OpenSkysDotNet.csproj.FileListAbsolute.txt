@@ -1255,7 +1255,6 @@ C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-android\and
 C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-android\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-android\android\bin\packaged_resources
-C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-android\android\src\com\companyname\weather\R.java
 C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-android\_CompileJava.FileList.txt
 C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
 C:\Users\Alex\source\repos\Weather++\OpenSkysDotNet\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o

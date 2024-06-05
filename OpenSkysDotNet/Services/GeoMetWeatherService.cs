@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
+using static System.Net.WebRequestMethods;
 
 namespace OpenSkysDotNet.Services
 {
@@ -39,13 +40,15 @@ namespace OpenSkysDotNet.Services
             {
                 await GetLocation();
             }
-
+            string endPoint2 = "https://api.open-meteo.com/v1/forecast?latitude=" + Latitude + "&longitude=" + Longitude + "&current=temperature_2m,apparent_temperature,precipitation,rain,showers,weather_code,wind_speed_10m" +
+                "&hourly=temperature_2m,precipitation,rain,showers,weather_code,wind_speed_10m,wind_gusts_10m" +
+                "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,rain_sum,showers_sum&timezone=America%2FNew_York";
             string endPoint = "https://api.open-meteo.com/v1/forecast?latitude=" + Latitude + "&longitude=" + Longitude +
                 "&current=temperature_2m,wind_speed_10m,weather_code&" +
                 "hourly=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code";
             try
             {
-                HttpResponseMessage response = await httpClient.GetAsync(endPoint);
+                HttpResponseMessage response = await httpClient.GetAsync(endPoint2);
                 response.EnsureSuccessStatusCode();
 
                 string responseData = await response.Content.ReadAsStringAsync();

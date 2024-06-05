@@ -22,12 +22,12 @@
                             class="Small"
                             HorizontalOptions="Center"/>
                         <Image
-                            Source="{Binding Hours.Phrase}"
+                            Source="{Binding Day.Phrase, StringFormat='{0:F2}.png'}"
                             WidthRequest="40"
                             HeightRequest="40"
                             HorizontalOptions="Center"/>
                         <Label
-                            Text="{Binding Temperature.Minimum.Value, StringFormat='{0:F0}°'}"
+                            Text= "{Binding TemperatureMin, StringFormat='{0:F0}°C'}"
                             class="Subhead"
                             HorizontalOptions="Center"/>
                     </StackLayout>

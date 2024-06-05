@@ -8,7 +8,7 @@
         HeightRequest="200"
         HorizontalOptions="Center"
         Aspect="AspectFit"
-        Source="weather_partly_cloudy_day.svg">
+        Source="{Binding CurrentWeatherPhrase, StringFormat='{0:F2}.png'}">
         <!--<Image.Shadow>
             <Shadow Brush="#2B0B98" Offset="20,20" Radius="20" Opacity="0.8"/>
         </Image.Shadow>-->

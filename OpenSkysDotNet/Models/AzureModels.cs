@@ -5,17 +5,30 @@ namespace OpenSkysDotNet.Models;
 // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
 public class Minimum
 {
+    public Minimum(double value, string unit)
+    {
+        Value = value;
+        Unit = unit;
+    }
+
     [JsonPropertyName("value")]
-    public int Value { get; set; }
+    public double Value { get; set; }
 
     [JsonPropertyName("unit")]
     public string Unit { get; set; }
+
 }
 
 public class Maximum
 {
+    public Maximum(double value, string unit)
+    {
+        Value = value;
+        Unit = unit;
+    }
+
     [JsonPropertyName("value")]
-    public int Value { get; set; }
+    public double Value { get; set; }
 
     [JsonPropertyName("unit")]
     public string Unit { get; set; }
@@ -28,6 +41,12 @@ public class Temperature
 
     [JsonPropertyName("maximum")]
     public Maximum Maximum { get; set; }
+
+    public Temperature(Minimum newMinimum, Maximum  newMaximum)
+    {
+        Minimum = newMinimum;
+        Maximum = newMaximum;
+    }
 }
 
 public class Day
@@ -48,7 +67,10 @@ public class Forecast
     public DateTime DateTime { get; set; }
 
     [JsonPropertyName("temperature")]
-    public Temperature Temperature { get; set; }
+    public double TemperatureMin { get; set; }
+    public double TemperatureMax { get; set; }
+
+    public double PrecipitationSum { get; set; }
 
     [JsonPropertyName("day")]
     public Day Day { get; set; }

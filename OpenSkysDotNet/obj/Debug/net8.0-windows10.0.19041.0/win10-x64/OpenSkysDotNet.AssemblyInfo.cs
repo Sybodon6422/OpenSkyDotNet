@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenSkysDotNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6b67cb514b9d30d240883ce864536a9bddf51bdd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+02caae8496cc936d6f44db1e56ff111bcbaf3eb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenSkysDotNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenSkysDotNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,7 +8,7 @@ public class MaxTempOffsetConverter : IValueConverter
     {
         const double max = 90 * 3;
 
-        var maxTemp = System.Convert.ToDouble(value) * 3;
+        var maxTemp = System.Convert.ToDouble(value) * 6;
         var topMargin = max - maxTemp;
 
         return new Thickness(0, topMargin, 0, 0);

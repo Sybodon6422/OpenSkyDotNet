@@ -1,5 +1,5 @@
 obj\Release\net8.0-android\android-x86\aot\_Microsoft.Android.Resource.Designer.dll.so
-obj\Release\net8.0-android\android-x86\aot\Weather++.dll.so
+obj\Release\net8.0-android\android-x86\aot\OpenSkysDotNet.dll.so
 obj\Release\net8.0-android\android-x86\aot\Microsoft.Extensions.Configuration.dll.so
 obj\Release\net8.0-android\android-x86\aot\Microsoft.Extensions.Configuration.Abstractions.dll.so
 obj\Release\net8.0-android\android-x86\aot\Microsoft.Extensions.DependencyInjection.dll.so

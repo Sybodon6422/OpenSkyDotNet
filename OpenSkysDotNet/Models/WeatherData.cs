@@ -26,40 +26,61 @@ public class WeatherData
     public double Elevation { get; set; }
 
     [JsonPropertyName("current_units")]
-    public CurrentUnits CurrentUnits { get; set; }
+    public UnitTypeDefinition CurrentUnits { get; set; }
 
     [JsonPropertyName("current")]
-    public CurrentWeather Current { get; set; }
+    public CurrentForecast Current { get; set; }
 
     [JsonPropertyName("weather_code")]
     public int WeatherCode { get; set; }
 
     [JsonPropertyName("hourly_units")]
-    public HourlyUnits HourlyUnits { get; set; }
+    public UnitTypeDefinition HourlyUnits { get; set; }
 
     [JsonPropertyName("hourly")]
-    public HourlyWeather Hourly { get; set; }
+    public ArrayedForecast Hourly { get; set; }
+
+    [JsonPropertyName("daily_units")]
+    public UnitTypeDefinition DailyUnits { get; set; }
+
+    [JsonPropertyName("daily")]
+    public ArrayedForecast Daily { get; set; }
 }
 
-public class CurrentUnits
+public class UnitTypeDefinition
 {
     [JsonPropertyName("time")]
     public string Time { get; set; }
 
-    [JsonPropertyName("interval")]
-    public string Interval { get; set; }
-
     [JsonPropertyName("temperature_2m")]
     public string Temperature2m { get; set; }
 
+    [JsonPropertyName("apparent_temperature")]
+    public string ApparentTemperature { get; set; }
+
+    [JsonPropertyName("precipitation")]
+    public string Precipitation { get; set; }
+
+    [JsonPropertyName("rain")]
+    public string Rain { get; set; }
+
+    [JsonPropertyName("showers")]
+    public string Showers { get; set; }
+
+    [JsonPropertyName("weather_code")]
+    public string WeatherCode { get; set; }
+
     [JsonPropertyName("wind_speed_10m")]
     public string WindSpeed10m { get; set; }
+
+    [JsonPropertyName("wind_gusts_10m")]
+    public string WindGusts10m { get; set; }
 }
 
-public class CurrentWeather
+public class CurrentForecast
 {
     [JsonPropertyName("time")]
-    public DateTime Time { get; set; }
+    public string Time { get; set; }
 
     [JsonPropertyName("interval")]
     public int Interval { get; set; }
@@ -67,38 +88,81 @@ public class CurrentWeather
     [JsonPropertyName("temperature_2m")]
     public double Temperature2m { get; set; }
 
+    [JsonPropertyName("apparent_temperature")]
+    public double ApparentTemperature { get; set; }
+
+    [JsonPropertyName("precipitation")]
+    public double Precipitation { get; set; }
+
+    [JsonPropertyName("rain")]
+    public double Rain { get; set; }
+
+    [JsonPropertyName("showers")]
+    public double Showers { get; set; }
+
+    [JsonPropertyName("weather_code")]
+    public int WeatherCode { get; set; }
+
     [JsonPropertyName("wind_speed_10m")]
     public double WindSpeed10m { get; set; }
+
+    [JsonPropertyName("temperature_2m_max")]
+    public double Temperature2mMax { get; set; }
+
+    [JsonPropertyName("temperature_2m_min")]
+    public double Temperature2mMin { get; set; }
+
+    [JsonPropertyName("precipitation_sum")]
+    public double PrecipitationSum { get; set; }
+
+    [JsonPropertyName("rain_sum")]
+    public double RainSum { get; set; }
+
+    [JsonPropertyName("showers_sum")]
+    public double ShowersSum { get; set; }
 }
 
-public class HourlyUnits
+public class ArrayedForecast
 {
     [JsonPropertyName("time")]
-    public string Time { get; set; }
+    public string[] Time { get; set; }
+
+    [JsonPropertyName("interval")]
+    public int[] Interval { get; set; }
 
     [JsonPropertyName("temperature_2m")]
-    public string Temperature2m { get; set; }
+    public double[] Temperature2m { get; set; }
 
-    [JsonPropertyName("relative_humidity_2m")]
-    public string RelativeHumidity2m { get; set; }
+    [JsonPropertyName("apparent_temperature")]
+    public double[] ApparentTemperature { get; set; }
 
-    [JsonPropertyName("wind_speed_10m")]
-    public string WindSpeed10m { get; set; }
-}
+    [JsonPropertyName("precipitation")]
+    public double[] Precipitation { get; set; }
 
-public class HourlyWeather
-{
-    [JsonPropertyName("time")]
-    public List<DateTime> Time { get; set; }
+    [JsonPropertyName("rain")]
+    public double[] Rain { get; set; }
 
-    [JsonPropertyName("temperature_2m")]
-    public List<double> Temperature2m { get; set; }
+    [JsonPropertyName("showers")]
+    public double[] Showers { get; set; }
 
-    [JsonPropertyName("relative_humidity_2m")]
-    public List<double> RelativeHumidity2m { get; set; }
-
-    [JsonPropertyName("wind_speed_10m")]
-    public List<double> WindSpeed10m { get; set; }
     [JsonPropertyName("weather_code")]
-    public List<int> WeatherCode { get; set; }
+    public int[] WeatherCode { get; set; }
+
+    [JsonPropertyName("wind_speed_10m")]
+    public double[] WindSpeed10m { get; set; }
+
+    [JsonPropertyName("temperature_2m_max")]
+    public double[] Temperature2mMax { get; set; }
+
+    [JsonPropertyName("temperature_2m_min")]
+    public double[] Temperature2mMin { get; set; }
+
+    [JsonPropertyName("precipitation_sum")]
+    public double[] PrecipitationSum { get; set; }
+
+    [JsonPropertyName("rain_sum")]
+    public double[] RainSum { get; set; }
+
+    [JsonPropertyName("showers_sum")]
+    public double[] ShowersSum { get; set; }
 }
