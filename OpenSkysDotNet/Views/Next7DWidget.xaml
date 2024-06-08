@@ -1,77 +1,89 @@
-<VerticalStackLayout  xmlns:c="clr-namespace:OpenSkysDotNet.Converters"
-              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-              xmlns:m="clr-namespace:OpenSkysDotNet.Models"
-              x:Class="OpenSkysDotNet.Views.Next7DWidget">
+<VerticalStackLayout
+    x:Class="OpenSkysDotNet.Views.Next7DWidget"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:c="clr-namespace:OpenSkysDotNet.Converters"
+    xmlns:m="clr-namespace:OpenSkysDotNet.Models">
     <VerticalStackLayout.Resources>
-        <c:TempSpanConverter x:Key="TempSpanConverter"/>
-        <c:MaxTempOffsetConverter x:Key="MaxTempOffsetConverter"/>
-        <c:MinTempOffsetConverter x:Key="MinTempOffsetConverter"/>
+        <c:TempSpanConverter x:Key="TempSpanConverter" />
+        <c:MaxTempOffsetConverter x:Key="MaxTempOffsetConverter" />
+        <c:MinTempOffsetConverter x:Key="MinTempOffsetConverter" />
     </VerticalStackLayout.Resources>
 
     <Label
+        Margin="{OnIdiom Phone='15,0',
+                         Default='25,0'}"
         Text="Daily Forecasts"
-        Margin="{OnIdiom Phone='15,0',Default='25,0'}"
-        class="SectionTitle"/>
+        class="SectionTitle" />
 
     <ScrollView Orientation="Horizontal">
         <HorizontalStackLayout
-            Spacing="12"
-            Padding="{OnIdiom Phone='15,0',Default='25,0'}"
-            BindableLayout.ItemsSource="{Binding Week}">
+            Padding="{OnIdiom Phone='15,0',
+                              Default='25,0'}"
+            BindableLayout.ItemsSource="{Binding Week}"
+            Spacing="12">
             <BindableLayout.ItemTemplate>
                 <DataTemplate>
                     <VerticalStackLayout>
-                        <Label Text="{Binding DateTime, StringFormat='{0:ddd}'}" class="Subhead"
-                               HeightRequest="34" HorizontalOptions="Center"/>
-                        <Label Text="{Binding TemperatureMax, StringFormat='{0:F0}°'}" class="Subhead"
-                               HeightRequest="34" HorizontalOptions="Center"/>
-                        <Image Source="{Binding Day.Phrase, StringFormat='{0:F2}.png'}"
-                               WidthRequest="34"
-                               HeightRequest="34"
-                               HorizontalOptions="Center"/>
-                        <BoxView
-                            WidthRequest="1"
-                            HeightRequest="1"
-                            Margin="{Binding TemperatureMax, Converter={StaticResource MaxTempOffsetConverter}}"
-                            />
                         <Label
+                            HeightRequest="34"
+                            HorizontalOptions="Center"
+                            Text="{Binding DateTime, StringFormat='{0:ddd}'}"
+                            class="Subhead" />
+                        <Label
+                            HeightRequest="34"
+                            HorizontalOptions="Center"
                             Text="{Binding TemperatureMax, StringFormat='{0:F0}°'}"
-                            class="Subhead" HorizontalOptions="Center" HeightRequest="25"/>
+                            class="Subhead" />
+                        <Image
+                            HeightRequest="34"
+                            HorizontalOptions="Center"
+                            Source="{Binding Day.Phrase, StringFormat='{0:F2}.png'}"
+                            WidthRequest="34" />
+                        <BoxView
+                            Margin="{Binding TemperatureMax, Converter={StaticResource MaxTempOffsetConverter}}"
+                            HeightRequest="1"
+                            WidthRequest="1" />
+                        <Label
+                            HeightRequest="25"
+                            HorizontalOptions="Center"
+                            Text="{Binding TemperatureMax, StringFormat='{0:F0}°'}"
+                            class="Subhead" />
                         <BoxView
                             BackgroundColor="{StaticResource Accent_Blue100}"
-                            WidthRequest="10"
                             CornerRadius="5"
-                            HorizontalOptions="Center">
+                            HorizontalOptions="Center"
+                            WidthRequest="10">
                             <BoxView.HeightRequest>
                                 <MultiBinding Converter="{StaticResource TempSpanConverter}">
-                                    <Binding Path="Temperature.Minimum.Value" FallbackValue="80"/>
-                                    <Binding Path="Temperature.Maximum.Value" FallbackValue="100"/>
+                                    <Binding FallbackValue="80" Path="Temperature.Minimum.Value" />
+                                    <Binding FallbackValue="100" Path="Temperature.Maximum.Value" />
                                 </MultiBinding>
                             </BoxView.HeightRequest>
                         </BoxView>
                         <Label
+                            HeightRequest="20"
+                            HorizontalOptions="Center"
                             Text="{Binding TemperatureMin, StringFormat='{0:F0}°'}"
-                            class="Subhead" HorizontalOptions="Center" HeightRequest="20"/>
+                            class="Subhead" />
                         <BoxView
-                            WidthRequest="1"
-                            HeightRequest="0"
                             Margin="{Binding TemperatureMax, Converter={StaticResource MinTempOffsetConverter}}"
-                            />
-                        <BoxView class="HRule"/>
+                            HeightRequest="0"
+                            WidthRequest="1" />
+                        <BoxView class="HRule" />
                         <StackLayout
-                            Orientation="Horizontal"
                             HeightRequest="40"
-                            HorizontalOptions="Center">
+                            HorizontalOptions="Center"
+                            Orientation="Horizontal">
                             <Image
-                                Source="sm_solid_umbrella.png"
-                                WidthRequest="16"
                                 HeightRequest="16"
-                                VerticalOptions="Center"/>
+                                Source="sm_solid_umbrella.png"
+                                VerticalOptions="Center"
+                                WidthRequest="16" />
                             <Label
                                 Text="{Binding PrecipitationSum}"
-                                class="SubContent" 
-                                VerticalOptions="Center"/>
+                                VerticalOptions="Center"
+                                class="SubContent" />
                         </StackLayout>
 
                     </VerticalStackLayout>
